@@ -1,0 +1,12 @@
+Package: CARLIS
+Type: Package
+Title: Covariate-assisted replicability analysis for GWAS providing FDR control
+Version: 1.0
+Date: 2025-09-02
+Author: c(person("Yan Li", role = c("aut", "cre", "cph"), email = "li_yan@cust.edu.cn"))
+Description: This package implements a robust and powerful FDR control procedure for covariate-assisted large-scale multiple testing of replicability via hidden Markov models.
+License: GPL-3
+Encoding: UTF-8
+Depends: Rcpp (>= 1.0.9), qvalue
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.3.1
